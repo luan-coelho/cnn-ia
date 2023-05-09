@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-from cnn import is_suspicious_request
+from rnn import is_suspicious_request
 
 app = Flask(__name__)
 

@@ -1,11 +1,22 @@
 {
     "acceptable_urls": [
         "/",
-        "/api/v1/resource1",
-        "/api/v1/resource2"
+        "/home",
+        "/about",
+        "/contact",
+        "/login",
+        "/register",
+        "/products",
+        "/services"
     ],
     "suspicious_urls": [
+        "/admin",
+        "/shell",
+        "/config",
+        "/.env",
+        "/wp-config",
+        "/sql",
         "/phpmyadmin",
-        "/.git"
+        "/debug"
     ]
 }
