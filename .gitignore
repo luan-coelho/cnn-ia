@@ -3,4 +3,5 @@
 
 # Ignorar diretórios de ambiente virtual
 venv/
+.idea
 /.idea
