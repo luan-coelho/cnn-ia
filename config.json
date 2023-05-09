@@ -1,0 +1,11 @@
+{
+    "acceptable_urls": [
+        "/",
+        "/api/v1/resource1",
+        "/api/v1/resource2"
+    ],
+    "suspicious_urls": [
+        "/phpmyadmin",
+        "/.git"
+    ]
+}

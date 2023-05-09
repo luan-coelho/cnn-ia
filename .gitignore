@@ -1,0 +1,6 @@
+# Ignorar arquivos de compilação Python
+*.pyc
+
+# Ignorar diretórios de ambiente virtual
+venv/
+.idea
